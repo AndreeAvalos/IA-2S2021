@@ -1,0 +1,18 @@
+<table border="1">
+  <tr>
+    <td> Location</td>
+    <td> LEFT</td>
+    <td> RIGHT</td>
+    <td> COUNTER</td>
+  </tr>
+  <tr *ngFor="let item of displayEstates">
+    <td> {{item.location}} </td>
+    <td> {{item.left}} </td>
+    <td> {{item.right}} </td>
+    <td align="center"> {{item.count}} </td>
+  </tr>
+</table>
+<h2>ESTADO: {{proceso}}</h2>
+<h3>LOG DE ACTIVIDADES</h3>
+<div id="log"></div>
+
